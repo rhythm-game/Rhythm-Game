@@ -32,6 +32,7 @@ function launchIt(parameters) {
   hammer.style.height = "2em";
   hammer.style.background = "cornflowerblue";
   hammer.style.animation = "1s forwards slidetoright";
+  hammer.style.borderRadius = "10px";
   hammer.textContent = parameters.index + ":" + parameters.launchTime;
   document.body.appendChild(hammer);
 }
